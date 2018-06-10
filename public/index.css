@@ -1,0 +1,43 @@
+.header{
+	font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    color: #087cd8;
+}
+
+.form-control{
+	width: 30% !important;
+    margin: 0px auto;
+    margin-bottom: 25px;
+    padding: 8px 20px;
+    border-radius: 25px;
+}
+
+.content{
+	    background: #dedede;
+}
+.content-left{
+    padding-top: 20px;
+}
+.card{
+        border-bottom: 5px solid #007bff;
+    padding: 15px 0px 0px;
+        border-radius: 0px;
+    border: 1px solid #1b191933;
+}
+.card-title{
+	    color: #087cd8 !important;
+    font-size: 16px !important;
+    font-weight: 450 !important;
+    line-height: 20px !important;
+}
+.card-subtitle{
+	font-size: 14px;
+}
+.card-image img{
+    width: 80px !important;
+    height:115px;
+    margin:0px auto;
+}
+.card.small .card-image+.card-content, .card.medium .card-image+.card-content, .card.large .card-image+.card-content {
+    max-height: 50% !important;
+}
